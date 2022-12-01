@@ -13,11 +13,11 @@ router.post("/", (req, res) => {
 	res.send("Post Route to make a new user");
 });
 
-router.put("/:id", (req, res) => {
+router.get("/:id", (req, res) => {
 	res.send(`Get User With ID ${req.params.id}`);
 });
 
-router.get("/:id", (req, res) => {
+router.put("/:id", (req, res) => {
 	res.send(`Get User With ID ${req.params.id}`);
 });
 
